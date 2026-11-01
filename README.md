@@ -4,7 +4,6 @@
 - **作业**：创意代码的基本原理（p5.js，权重 20%）
 - **作者**：郑可滢
 - **技术**：p5.js（`p5@2.3.3`，通过 CDN 加载），需联网
-- **仓库要求**：公开仓库 + 已开启 GitHub Pages + 根目录 `index.html` 为索引页
 
 ## 作品清单（两个作品页）
 
@@ -30,27 +29,3 @@ python -m http.server 8000
 # 浏览器打开 http://localhost:8000
 ```
 
-## 部署到 GitHub Pages
-
-1. 在 GitHub 新建**公开**仓库，仓库名 `ip-01-p5-works`。
-2. 在本目录执行：
-
-```bash
-git remote add origin https://github.com/<你的用户名>/ip-01-p5-works.git
-git branch -M main
-git add .
-git commit -m "作业一：p5.js 创意代码的基本原理"
-git push -u origin main
-```
-
-3. 仓库 → **Settings → Pages** → Source 选 `main` 分支 `/ (root)` → Save。
-4. 约 1 分钟后访问 `https://<你的用户名>.github.io/ip-01-p5-works/` 即可看到索引页与两个作品。
-
-## 录屏检查清单（提交用）
-
-- [ ] 文件目录（展示仓库结构）
-- [ ] 打开代码
-- [ ] 本地运行起来（http://localhost:8000）
-- [ ] 实时操作演示（动态作品随帧律动 / 交互）
-- [ ] 仓库网页（展示提交记录 / GitHub Pages 链接）
-- [ ] 导出 `学号_姓名_作业1.mp4`（mp4 / H.264，≥1280×720）
